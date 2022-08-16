@@ -26,6 +26,15 @@ prebuilt_apex {
     prefer: true,
 }
 
+// Google com.google.android.adservices.apex
+prebuilt_apex {
+    name: "com.google.android.adservices",
+    src: "com.google.android.adservices.apex",
+    overrides: ["com.android.adservices"],
+    owner: "google",
+    prefer: true,
+}
+
 // Google com.google.android.appsearch.apex
 prebuilt_apex {
     name: "com.google.android.appsearch",
@@ -40,6 +49,15 @@ prebuilt_apex {
     name: "com.google.android.art",
     src: "com.google.android.art.apex",
     overrides: ["com.android.art"],
+    owner: "google",
+    prefer: true,
+}
+
+// Google com.google.android.bluetooth
+prebuilt_apex {
+    name: "com.google.android.bluetooth",
+    src: "com.google.android.bluetooth.apex",
+    overrides: ["com.android.bluetooth"],
     owner: "google",
     prefer: true,
 }
@@ -116,6 +134,15 @@ prebuilt_apex {
     prefer: true,
 }
 
+// Google com.google.android.ondevicepersonalization
+prebuilt_apex {
+    name: "com.google.android.ondevicepersonalization",
+    src: "com.google.android.ondevicepersonalization.apex",
+    overrides: ["com.android.ondevicepersonalization"],
+    owner: "google",
+    prefer: true,
+}
+
 // Google com.google.android.os.statsd
 prebuilt_apex {
     name: "com.google.android.os.statsd",
@@ -179,11 +206,20 @@ prebuilt_apex {
     prefer: true,
 }
 
-// Google com.google.android.tzdata2
+// Google com.google.android.tzdata4
 prebuilt_apex {
-    name: "com.google.android.tzdata3",
-    src: "com.google.android.tzdata3.apex",
+    name: "com.google.android.tzdata4",
+    src: "com.google.android.tzdata4.apex",
     overrides: ["com.android.tzdata"],
+    owner: "google",
+    prefer: true,
+}
+
+// Google com.google.android.uwb
+prebuilt_apex {
+    name: "com.google.android.uwb",
+    src: "com.google.android.uwb.apex",
+    overrides: ["com.android.uwb"],
     owner: "google",
     prefer: true,
 }
