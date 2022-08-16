@@ -87,7 +87,6 @@
          will be used.
          See android.view.textclassifier.TextClassificationManager.
     -->
-    <string name="config_servicesExtensionPackage" translatable="false">com.google.android.ext.services</string>
 
     <!-- The name of the package that will hold the system activity recognizer role. -->
      <string name="config_systemActivityRecognizer" translatable="false">com.google.android.gms</string>
